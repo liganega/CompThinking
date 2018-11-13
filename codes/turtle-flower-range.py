@@ -22,9 +22,6 @@ def leaf(count, step, angle):
         halfLeaf(count, step, angle)
         tuti.right(180 - count * angle)    # 반대 방향 바라보기
       
-
-#leaf(30, 6, 2)
-
 ### 꽃잎 6장 꽃 그리기
 # leaf 함수를 6번 사용하면 된다.
 # 꽃잎을 하나 그릴 때마다 60도 회전시켜야 한다.
